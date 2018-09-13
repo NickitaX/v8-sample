@@ -1,0 +1,13 @@
+{
+  "name": "v8-sample",
+  "version": "1.0.0",
+  "description": "Example project of V8 engine compiling C++ for NodeJS project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "author": "Nick Shulhin msh@octo.com",
+  "license": "ISC",
+  "gypfile": true
+}
