@@ -1,5 +1,5 @@
 const addon = require('./build/Release/addon');
 
-console.log(addon.hi());
+console.log(addon.banana());
 
-addon.call((msg) => console.log(`Wow, got this from callback: ${msg}`));
+addon.curiousBanana((msg) => console.log(`Wow, got this from callback: ${msg}`));
